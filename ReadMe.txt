@@ -23,9 +23,9 @@ The most frequently occurring word length is 2, for word lengths of 4 & 5
 
 ASSUMPTIONS ON WORD DEFINITIONS
 
-& is counted as a word. A word containing a hyphen is counted as all one word. I made the assumption that full stops aren't included in the total character count. This is because the character count being 41 is the only way to get the average word length to be 4.556, as per the specification. (Total haracter count / word count = average word length, eg 41 / 9 = 4.556).
+& is counted as a word. A word containing a hyphen is counted as all one word. I made the assumption that full stops aren't included in the total character count. This is because the character count being 41 is the only way to get the average word length to be 4.556, as per the specification. (Total haracter count / word count = average word length, eg 41 / 9 = 4.556). I made this assumption because the ampersand character is still counted as a word of length 1 in the sample output provided in the specification.
 
-Punctuation marks aren't included in the total character count. However, when counting the length of individual words, eg hello@google.com (which counts as one word), the @ symbol and the dot before "com" is still counted, so it counts as 16 characters. 
+Punctuation marks aren't included in the total character count. However, when counting the length of individual words, eg hello@google.com (which counts as one word), the @ symbol and the dot before "com" is still counted, so it counts as 16 characters.
 
 INSTALLATION INSTRUCTIONS
 
